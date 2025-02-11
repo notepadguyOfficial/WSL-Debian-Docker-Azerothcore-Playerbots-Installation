@@ -3,11 +3,12 @@
 ## Table of Contents
 
 - [Requirements](#requirements)
-- [Git Cloning](#gitcloning)
-- [WSL Installation](#wslinstallation)
-- [Docker Installation](#dockerinstallation)
-- [Azerothcore-Playerbots Introduction](#azerothcore-playerbots)
-- [AzerothCore Bot Installation](#azerothcorebotinstallation)
+- [Git Cloning](#git-cloning)
+- [WSL Installation](#wsl-installation)
+- [Docker Installation](#docker-installation)
+- [Azerothcore-Playerbots Introduction](#azerothcore-playerbot)
+- [AzerothCore Bot Installation](#azerothcore-bot-installation)
+
 
 ## Requirements
  - wsl2
@@ -152,3 +153,7 @@ Includes:
 7. Edit your `<your wow directory root>\Data\enUS\realmlist.wtf` and type in the ip address you get in the end of installing..." set realmlist dockerhost_ip 192.168.48.2 "
 
 8. Run the Game and your done.
+
+## Acknowledgements
+ - Special thanks to [coc0nut](https://github.com/coc0nut) for the Script Base [Repository](https://github.com/coc0nut/AzerothCore-with-Playerbots-Docker-Setup).
+ - Special thanks to [Jérémie Panzer](https://gist.github.com/Athou) for the insallation Script of Docker [Script-Link](https://gist.github.com/Athou/022c67de48f1cf6584ce6c194af71a09).
