@@ -58,7 +58,7 @@
 	```
 
 ## Docker Installation
-1. see [Git Cloning](#gitcloning)
+1. see [Git Cloning](#git-cloning)
 
 2. Run WSL via cmd/Powershell:
     ```cmd
