@@ -8,7 +8,7 @@
 - [Docker Installation](#docker-installation)
 - [Azerothcore-Playerbots Introduction](#azerothcore-playerbot)
 - [AzerothCore Bot Installation](#azerothcore-bot-installation)
-
+- [Acknowledgements](#acknowledgements)
 
 ## Requirements
  - wsl2
