@@ -151,7 +151,11 @@ Includes:
 	```
 	(!Important) when connecting to database or game use the wsl ip address.
 	
-7. Edit your `<your wow directory root>\Data\enUS\realmlist.wtf` and type in the ip address you get in the end of installing..." set realmlist dockerhost_ip 192.168.48.2 "
+7. Edit your `<your wow directory root>\Data\enUS\realmlist.wtf` and type in the wsl ip address you get in the end of installing.
+
+```
+set realmlist dockerhost_ip 192.168.48.2
+```
 
 8. Run the Game and your done.
 
