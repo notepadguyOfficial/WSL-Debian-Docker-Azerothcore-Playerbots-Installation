@@ -1,0 +1,10 @@
+services:
+  ac-database:
+    environment:
+      TZ: ${TZ}
+
+  ac-worldserver:
+    environment:
+      TZ: ${TZ}
+    volumes:
+      - ./modules:/azerothcore/modules:rw

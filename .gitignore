@@ -1,0 +1,4 @@
+azerothcore-wotlk
+wotlk/*
+sql_dumps/*/*.sql
+sql_dumps/*/*.*filepart
