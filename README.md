@@ -105,13 +105,14 @@
 ## Azerothcore-Playerbot
 Includes:
  - MariaDB-Client (This is only client and will install only if you dont have the mysql command...)
- - Docker (Will install if Docker is not installed.)
  - Azeroth Core - Playerbots branch
  - mod-playerbots
  - mod-aoe-loot (optional)
  - mod-learn-spells (optional)
  - mod-fireworks-on-level (optional)
  - mod-individual-progression (optional)
+ - mod-junk-to-gold (optional)
+ - mod-dungeon-respawn (optional)
 
 ### Update
  - To update and get the latest versions, you can run `./uninstall.sh` without deleting the volumes and run `./setup.sh` again. It will prompt you if you want to delete the volumes.
