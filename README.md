@@ -11,6 +11,8 @@
 - [Credits](#credits)
 
 ## Requirements
+ - Windows 11
+ - Windows 10 version 1903 (build 18362) atleast or later
  - wsl2
  
 ## Git Cloning
