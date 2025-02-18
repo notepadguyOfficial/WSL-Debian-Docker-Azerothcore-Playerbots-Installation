@@ -95,9 +95,9 @@ if ask_user "Install modules?"; then
     install_mod "mod-aoe-loot" "https://github.com/azerothcore/mod-aoe-loot.git"
     install_mod "mod-learn-spells" "https://github.com/noisiver/mod-learnspells.git"
     install_mod "mod-fireworks-on-level" "https://github.com/azerothcore/mod-fireworks-on-level.git"
-    install_mod "mod-individual-progression" "https://github.com/ZhengPeiRu21/mod-individual-progression.git"
+    install_mod "mod-individual-progression" "https://github.com/notepadguyOfficial/mod-individual-progression"
     install_mod "mod-junk-to-gold" "https://github.com/notepadguyOfficial/mod-junk-to-gold.git"
-    install_mod "mod-dungeon-respawn" "https://github.com/notepadguyOfficial/DungeonRespawn.git"
+    install_mod "mod-DungeonRespawn" "https://github.com/notepadguyOfficial/DungeonRespawn.git"
     cd ..
 
 fi
@@ -131,7 +131,7 @@ function execute_sql() {
             else
                 cp "$custom_sql_file" "$temp_sql_file"
             fi
-            mysql -h "$ip_address" -uroot -ppassword "$db_name" < "$temp_sql_file"
+            mysql -h "$ip_address" -uroot -proot "$db_name" < "$temp_sql_file"
         done
     else
         echo "No SQL files found in $custom_sql_dir/$db_name, skipping..."

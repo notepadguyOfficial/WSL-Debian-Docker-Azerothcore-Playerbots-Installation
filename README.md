@@ -114,7 +114,7 @@ Includes:
  - mod-fireworks-on-level (optional)
  - mod-individual-progression (optional)
  - mod-junk-to-gold (optional)
- - mod-dungeon-respawn (optional)
+ - mod-DungeonRespawn (optional)
 
 ### Update
  - To update and get the latest versions, you can run `./uninstall.sh` without deleting the volumes and run `./setup.sh` again. It will prompt you if you want to delete the volumes.
@@ -156,7 +156,7 @@ Includes:
 7. Edit your `<your wow root directory>\Data\enUS\realmlist.wtf` and type in the wsl ip address you get in the end of installing.
 
 ```
-set realmlist dockerhost_ip 192.168.48.2
+set realmlist 172.17.0.1
 ```
 
 8. Run the Game and your done.
