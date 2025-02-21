@@ -24,7 +24,7 @@
 ## WSL Installation
 1. Open cmd/Powershell and run this command:
 	```cmd
-	wsl --insall -d Debian
+	wsl --install -d Debian
 	```
 
 2. Once Installed, Export the a backup to the desired location:
@@ -163,4 +163,4 @@ set realmlist 172.17.0.1
 
 ## Credits
  - Special thanks to [coc0nut](https://github.com/coc0nut) for the Script Base [Repository](https://github.com/coc0nut/AzerothCore-with-Playerbots-Docker-Setup).
- - Special thanks to [Jérémie Panzer](https://gist.github.com/Athou) for the insallation Script of Docker [Script-Link](https://gist.github.com/Athou/022c67de48f1cf6584ce6c194af71a09).
+ - Special thanks to [Jérémie Panzer](https://gist.github.com/Athou) for the installation Script of Docker [Script-Link](https://gist.github.com/Athou/022c67de48f1cf6584ce6c194af71a09).
