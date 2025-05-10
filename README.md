@@ -27,34 +27,7 @@
 	wsl --install -d Debian
 	```
 
-2. Once Installed, Export the a backup to the desired location:
-	```cmd
-	wsl --export Debian C:\Example
-	```
-	or
-	```cmd
-	wsl --export Debian D:\Example
-	```
-
-3. Unregister the Original Debian Image from WSL:
-	```cmd
-	wsl --unregister Debian
-	```
-
-4. Import it back into your chosen location:
-	```cmd
-	wsl --import Debian C:\Debian C:\Example\Debian.tar --version 2
-	```
-	or
-	```cmd
-	wsl --import Debian D:\Debian D:\Example\Debian.tar --version 2
-	```
-	
- - (Optional) Delete the .tar file to free space:
-	```cmd
-	Remove-Item D:\Example\Debian.tar
-	```
-5. Launch Debian:
+2. Launch Debian:
 	```cmd
 	wsl -d Debian
 	```
@@ -78,21 +51,7 @@
 
 4. run the sh file:
 	```cmd
-	./setup-docker-wsl.sh
-	```
-
- - (!Note) If you run the script but with error, This usually means Windows-style line endings instead of the Unix-style.
-	To fix this run this command
-	```cmd
-	sudo apt install dos2unix
-
-	#then
-
-	dos2unix *.sh
-
-	#final command
-
-	chmod +x *.sh
+	./docker.sh
 	```
 
 5. wait until done then restart wsl:
@@ -156,7 +115,7 @@ Includes:
 7. Edit your `<your wow root directory>\Data\enUS\realmlist.wtf` and type in the wsl ip address you get in the end of installing.
 
 ```
-set realmlist 172.17.0.1
+set realmlist docker_ip
 ```
 
 8. Run the Game and your done.
